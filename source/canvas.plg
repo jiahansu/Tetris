@@ -1,0 +1,93 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: canvas - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x404 /fo"Release/canvasr.res" /d "NDEBUG" "C:\Documents and Settings\Taris\桌面\MyBlock\canvasr.rc"" 
+Creating temporary file "C:\DOCUME~1\Taris\LOCALS~1\Temp\RSP17.tmp" with contents
+[
+/nologo /MT /W4 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/canvas.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Documents and Settings\Taris\桌面\MyBlock\canvasFrame.cpp"
+"C:\Documents and Settings\Taris\桌面\MyBlock\cavasApp.cpp"
+"C:\Documents and Settings\Taris\桌面\MyBlock\ddutil.cpp"
+"C:\Documents and Settings\Taris\桌面\MyBlock\dmutil.cpp"
+"C:\Documents and Settings\Taris\桌面\MyBlock\dsutil.cpp"
+"C:\Documents and Settings\Taris\桌面\MyBlock\dxutil.cpp"
+"C:\Documents and Settings\Taris\桌面\MyBlock\MyInputManager.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Taris\LOCALS~1\Temp\RSP17.tmp" 
+Creating temporary file "C:\DOCUME~1\Taris\LOCALS~1\Temp\RSP18.tmp" with contents
+[
+winmm.lib dxguid.lib dxerr8.lib ddraw.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib Dsound.lib Dinput8.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/canvas.pdb" /debug /machine:I386 /out:"Release/canvas.exe" 
+".\Release\canvasFrame.obj"
+".\Release\cavasApp.obj"
+".\Release\ddutil.obj"
+".\Release\dmutil.obj"
+".\Release\dsutil.obj"
+".\Release\dxutil.obj"
+".\Release\MyInputManager.obj"
+".\Release\canvasr.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\Taris\LOCALS~1\Temp\RSP18.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+canvasFrame.cpp
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\mmsystem.h(1623) : warning C4201: nonstandard extension used : nameless struct/union
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\mmsystem.h(1627) : warning C4201: nonstandard extension used : nameless struct/union
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\mmsystem.h(1648) : warning C4201: nonstandard extension used : nameless struct/union
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\mmsystem.h(1652) : warning C4201: nonstandard extension used : nameless struct/union
+C:\DXSDK\INCLUDE\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\Documents and Settings\Taris\桌面\MyBlock\canvasFrame.cpp(54) : warning C4101: 'rect' : unreferenced local variable
+C:\Documents and Settings\Taris\桌面\MyBlock\canvasFrame.cpp(376) : warning C4552: '!=' : operator has no effect; expected operator with side-effect
+C:\Documents and Settings\Taris\桌面\MyBlock\canvasFrame.cpp(436) : warning C4018: '<' : signed/unsigned mismatch
+C:\Documents and Settings\Taris\桌面\MyBlock\canvasFrame.cpp(437) : warning C4018: '<' : signed/unsigned mismatch
+C:\Documents and Settings\Taris\桌面\MyBlock\canvasFrame.cpp(439) : warning C4018: '<' : signed/unsigned mismatch
+C:\Documents and Settings\Taris\桌面\MyBlock\canvasFrame.cpp(440) : warning C4018: '<' : signed/unsigned mismatch
+C:\Documents and Settings\Taris\桌面\MyBlock\canvasFrame.cpp(989) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+C:\Documents and Settings\Taris\桌面\MyBlock\canvasFrame.cpp(1013) : warning C4553: '==' : operator has no effect; did you intend '='?
+cavasApp.cpp
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\mmsystem.h(1623) : warning C4201: nonstandard extension used : nameless struct/union
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\mmsystem.h(1627) : warning C4201: nonstandard extension used : nameless struct/union
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\mmsystem.h(1648) : warning C4201: nonstandard extension used : nameless struct/union
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\mmsystem.h(1652) : warning C4201: nonstandard extension used : nameless struct/union
+C:\DXSDK\INCLUDE\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+ddutil.cpp
+C:\Documents and Settings\Taris\桌面\MyBlock\ddutil.cpp(342) : warning C4189: 'pDDS' : local variable is initialized but not referenced
+C:\Documents and Settings\Taris\桌面\MyBlock\ddutil.cpp(396) : warning C4127: conditional expression is constant
+dmutil.cpp
+C:\Documents and Settings\Taris\桌面\MyBlock\ddutil.cpp(986) : warning C4701: local variable 'rgbT' may be used without having been initialized
+dsutil.cpp
+dxutil.cpp
+MyInputManager.cpp
+C:\DXSDK\INCLUDE\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\Documents and Settings\Taris\桌面\MyBlock\MyInputManager.cpp(106) : warning C4100: 'dwFlags' : unreferenced formal parameter
+C:\Documents and Settings\Taris\桌面\MyBlock\MyInputManager.cpp(146) : warning C4100: 'pvRef' : unreferenced formal parameter
+C:\Documents and Settings\Taris\桌面\MyBlock\MyInputManager.cpp(155) : warning C4100: 'pvRef' : unreferenced formal parameter
+C:\Documents and Settings\Taris\桌面\MyBlock\MyInputManager.cpp(290) : warning C4100: 'pvRef' : unreferenced formal parameter
+C:\Documents and Settings\Taris\桌面\MyBlock\MyInputManager.cpp(67) : warning C4706: assignment within conditional expression
+C:\Documents and Settings\Taris\桌面\MyBlock\MyInputManager.cpp(70) : warning C4706: assignment within conditional expression
+C:\Documents and Settings\Taris\桌面\MyBlock\MyInputManager.cpp(73) : warning C4706: assignment within conditional expression
+C:\Documents and Settings\Taris\桌面\MyBlock\MyInputManager.cpp(76) : warning C4706: assignment within conditional expression
+C:\Documents and Settings\Taris\桌面\MyBlock\MyInputManager.cpp(93) : warning C4706: assignment within conditional expression
+C:\Documents and Settings\Taris\桌面\MyBlock\MyInputManager.cpp(95) : warning C4706: assignment within conditional expression
+C:\Documents and Settings\Taris\桌面\MyBlock\MyInputManager.cpp(98) : warning C4706: assignment within conditional expression
+C:\Documents and Settings\Taris\桌面\MyBlock\MyInputManager.cpp(100) : warning C4706: assignment within conditional expression
+C:\Documents and Settings\Taris\桌面\MyBlock\MyInputManager.cpp(121) : warning C4706: assignment within conditional expression
+C:\Documents and Settings\Taris\桌面\MyBlock\MyInputManager.cpp(127) : warning C4706: assignment within conditional expression
+C:\Documents and Settings\Taris\桌面\MyBlock\MyInputManager.cpp(131) : warning C4706: assignment within conditional expression
+C:\Documents and Settings\Taris\桌面\MyBlock\MyInputManager.cpp(135) : warning C4706: assignment within conditional expression
+C:\Documents and Settings\Taris\桌面\MyBlock\MyInputManager.cpp(137) : warning C4706: assignment within conditional expression
+C:\Documents and Settings\Taris\桌面\MyBlock\MyInputManager.cpp(139) : warning C4706: assignment within conditional expression
+Linking...
+
+
+
+<h3>Results</h3>
+canvas.exe - 0 error(s), 37 warning(s)
+</pre>
+</body>
+</html>
